@@ -1,0 +1,438 @@
+* {
+	box-sizing: border-box;
+}
+
+/* type */
+
+body{
+	font-family: 'Arial', sans-serif;
+}
+
+#text, #shape{
+	width: 300px;
+	display: inline-block;
+	padding: 20px;
+	vertical-align: top;
+}
+
+/* text */
+
+p {
+	color: red;
+	font-size: 20px;
+	transition-property: font-size;
+	transition-duration:  800ms;
+	transition-timing-function: ease;
+	transition-delay: 1s;
+}
+
+p:hover {
+	font-size: 80px;
+	color: grey;
+}
+
+
+/* shapes */
+
+
+
+
+.c {
+      width: 110px;
+      height: 180px;
+      border-right: 0px solid transparent;
+      border-top: 15px solid red;
+      border-left: 20px solid red;
+      border-bottom: 15px solid red;
+      border-top-left-radius: 80px;
+      border-top-right-radius: 100px;
+      border-bottom-left-radius: 80px;
+      border-bottom-right-radius: 100px;
+      position: absolute;
+    left: 320px; 
+    top:320px ;
+    }
+     .c:hover {
+	background: grey;
+	   border-radius: 25px;
+	}
+  
+  .a {
+      width: 70px;
+      height: 80px;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-bottom: 60px solid red;
+        position: absolute; 
+    left:320px;
+    top:567px;
+    }
+    .a:hover {
+	background: transparent;
+	border-radius: 180px;
+}
+    .a2 {
+  	width: 5px;
+	height: 150px;
+	background: red;
+	border-radius: 80px / 80px;
+    transform: rotate(-25deg);
+    position: absolute; 
+    left:390px;
+    top:543px;
+  }
+
+    
+     .o {
+      font-size: 300px;
+      display: inline-block;
+      width: 120px;
+      box-sizing: content-box;
+      height: 120px;
+      border: 20px solid red;
+      position: relative;
+      border-radius: 80px;
+      position: absolute;
+      left: 320px; 
+      top:380px ;
+
+    }
+    .o2 {
+	width: 120px;
+	height: 120px;
+	background: red;
+	border-radius: 80px / 80px;
+    position: absolute;
+    left: 345px; 
+    top:390px ;
+    transform: rotate(90deg);
+}
+    .o:hover {
+    	background: grey;
+	   border-radius: 80px;
+
+}
+   .rectn1 {
+	width: 5px;
+	height: 150px;
+	background: red;
+	border-radius: 10px / 10px;
+    position: absolute;
+    left: 320px; 
+    top:700px ;
+}
+	
+	.rectn2 {
+	width: 15px;
+	height: 130px;
+	background: red;
+	border-radius: 80px / 80px;
+    position: absolute;
+    left: 365px; 
+    top:700px ;
+    transform: rotate(-40deg);
+    
+}
+
+	.rectn2:hover {
+	background: grey;
+	   border-radius: 80px;
+    
+}
+   .rectn3 {
+	width: 5px;
+	height: 150px;
+	background: red;
+	border-radius: 80px / 80px;
+    position: absolute;
+    left: 420px; 
+    top:700px ;
+    
+}
+
+    .d {
+      width: 110px;
+      height: 160px;
+      border-right: 0px solid transparent;
+      border-top: 20px solid red;
+      border-left: 20px solid red;
+      border-bottom: 20px solid red;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 80px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 80px;
+      position: absolute;
+    left: 320px; 
+    top:900px ;
+    }
+    .d:hover {
+	background: grey;
+	   border-radius: 100px;
+	   left: 420px;
+	}
+
+.y {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid red;
+      position: absolute;
+     left: 320px; 
+     top:1100px ;
+}
+
+
+.y2 {
+	width: 5px;
+	height: 130px;
+	background: red;
+	border-radius: 80px / 80px;
+    position: absolute;
+    left: 365px; 
+    top:700px ;
+    transform: rotate(27deg);
+     left: 385px; 
+     top:1120px;
+    }
+
+.y:hover {
+	  background: white;
+	  border-radius: 80px;
+	  width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid white;
+      
+} 
+
+
+	 .q {
+	width: 110px;
+	height: 180px;
+	border-radius: 150px;
+	background: red;
+	position: absolute;
+	left: 320px;
+    top:1280px ;
+}
+   .q2 {
+	width: 15px;
+	height: 75px;
+	background: white;
+	border-radius: 80px / 80px;
+    position: absolute;
+    left: 410px; 
+    top:1400px ;
+    transform: rotate(-45deg);
+}
+.q:hover {
+	background: transparent;
+	border-radius: 80px; 
+}  
+.u {
+      width: 110px;
+      height: 180px;
+      border-right: 20px solid red;
+      border-top: 40px solid transparent;
+      border-left: 20px solid red;
+      border-bottom: 20px solid red;
+      border-top-left-radius: 80px;
+      border-top-right-radius: 80px;
+      border-bottom-left-radius: 80px;
+      border-bottom-right-radius: 100px;
+      position: absolute;
+    left: 320px; 
+    top:1480px ;
+    }
+
+.u:hover {
+	background: grey;
+	border-radius: 80px; 
+}
+	.o {
+      width: 80px;
+	  height: 140px;
+      display: inline-block;
+      
+      box-sizing: content-box;
+     
+      border: 20px solid red;
+      position: relative;
+      border-radius: 60px;
+      position: absolute;
+      left: 320px; 
+      top:1680px ;
+
+    }
+    .o2 {
+	width: 125px;
+	height: 100px;
+	background: red;
+	border-radius: 100px / 100px;
+    position: absolute;
+    left: 324px; 
+    top:1710px ;
+    transform: rotate(90deg);
+}
+    .o:hover {
+    	background: grey;
+	   border-radius: 80px;
+	}
+
+
+.t {
+      width: 120px;
+      height: 120px;
+      border-left: 60px solid transparent;
+      border-right: 60px solid transparent;
+      border-top: 120px solid red;
+      position: absolute;
+     left: 320px; 
+     top:1920px ;
+}
+.t2 {
+	width: 10px;
+	height: 100px;
+	background: white;
+	border-radius: 80px / 80px;
+    position: absolute;
+    left: 380px; 
+    top:700px ;
+    left: 374px; 
+    top:1900px;
+    
+}
+.t3 {
+	width: 10px;
+	height: 126px;
+	background: red;
+	border-radius: 80px / 80px;
+    position: absolute;
+    left: 380px; 
+    top:700px ;
+    left: 376px; 
+    top:1840px;
+    transform: rotate(90deg);
+    
+}
+.t:hover {
+	  background: grey;
+	  border-radius: 80px;
+	  width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid white;
+      
+} 
+
+	.e {
+      position: relative;
+      text-align: center;
+      padding: 20px;
+      margin-bottom: 6px;
+      height: 10px;
+      width: 120px;
+      position: absolute;
+      left: 320px; 
+      top:2100px ;
+    }
+    .e:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 51%;
+      background: red;
+      transform: skew(0deg, 6deg);
+    }
+    .e:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 50%;
+      background: red;
+      transform: skew(0deg, -6deg);
+    }
+    .e2 {
+      position: relative;
+      text-align: center;
+      padding: 20px;
+      margin-bottom: 6px;
+      height: 10px;
+      width: 120px;
+      position: absolute;
+      left: 320px; 
+      top:2150px ;
+    }
+    .e2:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 51%;
+      background: red;
+      transform: skew(0deg, 6deg);
+    }
+    .e2:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 50%;
+      background: red;
+      transform: skew(0deg, -6deg);
+    }
+    
+    .e3 {
+      position: relative;
+      text-align: center;
+      padding: 20px;
+      margin-bottom: 6px;
+      height: 10px;
+      width: 120px;position: absolute;
+      left: 320px; 
+      top:2200px ;
+    }
+    .e3:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 51%;
+      background: red;
+      transform: skew(0deg, 6deg);
+    }
+    .e3:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 50%;
+      background: red;
+      transform: skew(0deg, -6deg);
+    }
+
+     .e:hover {
+	  background: grey;
+	  border-radius: 100px;
+	  width: 10px;
+      height: 10px;
+      border-left: 30px transparent;
+      border-right: 30px solid transparent;
+      border-top: 100px white;
+        
+	}
+
+#grad {
+  background-image: linear-gradient(to right, red , yellow);
+}

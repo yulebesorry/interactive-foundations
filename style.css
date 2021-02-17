@@ -1,0 +1,28 @@
+CSSbody {
+	background-color: lightgrey;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+h1 {
+	color: grey;
+	font-size: 50px;
+  margin: auto;
+  width: 20%;
+  border: 1px solid black;
+  padding: px;
+}
+p {
+  font-size: 25px;
+  margin: auto;
+  width: 20%;
+  padding: 5px;
+  }
+h5 {font-size: 25px;
+  margin: left;
+  width: 20%;
+  padding: 5px;
+}
