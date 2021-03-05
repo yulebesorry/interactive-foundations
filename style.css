@@ -1,6 +1,9 @@
 CSSbody {
 	background-color: lightgrey;
 }
+.element {
+  caret-color: red;
+}
 img {
   display: block;
   margin-left: auto;

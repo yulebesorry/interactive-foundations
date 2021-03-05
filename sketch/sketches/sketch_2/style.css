@@ -1,0 +1,63 @@
+@font-face {
+	font-family: "routed gothic";
+	src: url( fonts/routed-gothic-narrow.ttf) format("truetype");
+}
+@font-face {
+	font-family: "routed gothic";
+	src: url( fonts/routed-gothic-wide-half-italic.ttf) format("truetype");
+}
+
+
+body{
+	font-family: 'routed gothic', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	margin: 0;
+}
+
+main{
+	margin: 1rem;
+	max-width: 60%;
+	margin: auto;
+}
+
+h1,h2,h3 {
+	font-style: 'routed-gothic-wide-half-italic';
+	font-weight: normal;
+}
+
+h1{
+	font-size: 5rem;
+}
+
+
+h2 {
+	font-size: 4rem;
+}
+
+.color{
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+
+.palette{
+	display: flex;
+}
+
+.primary{
+	flex: 2;
+	background: #e63b3b;
+}
+
+.secondary, .tertiary{
+	flex: 1;
+}
+
+.secondary{
+	background: #f5f4e8;
+}
+
+.tertiary{
+	background: #616161;
+}
