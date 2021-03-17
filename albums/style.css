@@ -1,3 +1,9 @@
+* {
+	background: #f5f4e6;
+
+
+}
+
 .inline-container {
 		display: grid;
 		grid-template-columns: 240px 240px 240px 240px 240px 240px 240px;
@@ -14,7 +20,8 @@ img {
 div {
   	background: #f5f4e8;
   	font-size: 20px;
-  	font-family: 'ibm plex mono medium'
+  	font-family: ibm-plex-mono, sans-serif;
+    font-style: normal;
 
   	}
 .bold {
@@ -28,16 +35,17 @@ div {
   font-size: 20px;
 	
 }
-body{font-family:'roboto', sans-serif;
+body{font-family:'ibm-plex-mono', sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 	text-align: center;
+	font-style: normal;
 }
 
 main{
 	margin: 1rem;
 	max-width: 60%;
-	margin: auto;
+	text-align: left;
 }
 
 h1,h2,h3 {
