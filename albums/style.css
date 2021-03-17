@@ -42,16 +42,22 @@ body{font-family:'ibm-plex-mono', sans-serif;
 	font-style: normal;
 }
 
+
 main{
 	margin: 1rem;
-	max-width: 60%;
+	max-width: 100%;
 	text-align: left;
 }
 
-h1,h2,h3 {
-	font-family: 'roboto', sans-serif;
+h1,h2 {
+	font-family: 'ibm-plex-mono', sans-serif;
 	font-weight: normal;
 	text-align: center;
+}
+h3,h4,h5 {
+	font-family: 'ibm-plex-mono', sans-serif;
+	font-weight: normal;
+	text-align: left;
 }
 
 h1{
@@ -61,10 +67,20 @@ h1{
 
 
 h2 {
-	font-size: 3rem;
+	font-size: 2rem;
 	
 }
+h3 {
+	font-size: 1.5rem;
+}
+ 
+h4{
+	font-size: 1.5rem;
+}
 
+h5{
+	font-size: 1.5rem;
+}
 .color{
 	width: 100px;
 	height: 100px;
