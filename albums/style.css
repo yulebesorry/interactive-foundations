@@ -5,8 +5,8 @@
 }
 
 .inline-container {
-		display: grid;
-		grid-template-columns: 240px 240px 240px 240px 240px 240px 240px;
+		display: grid; border-width: 1px 0 0 1px;
+		grid-template-columns: 198px 198px 198px 198px 190px 198px 198px;
 
 }
 img {
@@ -45,7 +45,7 @@ body{font-family:'ibm-plex-mono', sans-serif;
 
 main{
 	margin: 1rem;
-	max-width: 100%;
+	max-width: 50%;
 	text-align: left;
 }
 
