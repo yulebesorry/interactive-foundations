@@ -32,6 +32,7 @@ div {
 
 .item {
   border: 1px solid #3c3b46;
+  border-top: 2px solid #3c3b46;
   padding: 0px;
   font-size: 20px;
 	
