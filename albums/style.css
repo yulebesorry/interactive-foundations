@@ -6,7 +6,9 @@
 
 .inline-container {
 		display: grid; border-width: 1px 0 0 1px;
-		grid-template-columns: 220px 220px 220px 220px 220px 220px 220px;
+		/*grid-template-columns: 220px 220px 220px 220px 220px 220px 220px;*/
+		grid-template-columns: repeat(7, 1fr);
+		/*align-items: stretch;*/
 }
 img {
     
@@ -39,7 +41,8 @@ div {
     padding: 0px;
     box-sizing: border-box;
 }
-body{font-family:'ibm-plex-mono', sans-serif;
+body{
+	font-family:'ibm-plex-mono', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	text-align: center;
@@ -48,9 +51,13 @@ body{font-family:'ibm-plex-mono', sans-serif;
 
 
 main{
-	margin: 1rem auto;
+	margin: 8rem auto;
 	max-width: 80%;
 	text-align: left;
+	font-family:'ibm-plex-mono', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	font-style: normal;
 }
 
 h1,h2 {
@@ -62,6 +69,8 @@ h3,h4,h5 {
 	font-family: 'ibm-plex-mono', sans-serif;
 	font-weight: normal;
 	text-align: left;
+    font-size: 16px;
+
 }
 
 h1{
@@ -75,19 +84,100 @@ h2 {
 	
 }
 h3 {
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 }
  
 h4{
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 }
 
 h5{
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1300px) {
+	.inline-container{
+		grid-template-columns: repeat(5, 1fr);
+	}
+	h1{
+		font-size: 4rem;
+	}
+	h2{
+		font-size: 1.5rem;
+	}
+	h3{
+		font-size: 2rem;
+	}
+	h4{
+		font-size: 2rem;
+	}
+	h5{
+		font-size: 2rem;
+	}
+	
 
+	.bold {
+	    font-size: 20px;
+	    font-family: 'ibm plex mono bold';
+		height:  75px;
+	}
+	.img {
+		height: 100px;
+	}
+	.item {
+  border: 1px solid #3c3b46;
+  padding: 0px;
+  font-size: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+	.inline-container{
+		grid-template-columns: repeat(3, 1fr);
+	}
+	h1{
+		font-size: 3rem;
+	}
+	h2{
+		font-size: 1rem;
+	}
+	h3{
+		font-size: 2rem;
+	}
+	h4{
+		font-size: 2rem;
+	}
+	h5{
+		font-size: 2rem;
+	}
+	.item{
+		font font-size: 15px;
+		font-family: ibm-plex-mono, sans-serif;
+        font-style: normal;
+        height: 180px;
+	}
+
+	.bold {
+	    font-size: 15px;
+	    font-family: 'ibm plex mono bold';
+		height:  50px;
+	}
+	.img {
+		height: 100px;
+	}
+	body{
+		font-family:'ibm-plex-mono', sans-serif;
+	font-weight: 400;
+	font-size: 9px;
+	text-align: center;
+	font-style: normal;
+
+}
+.item {
+  border: 1px solid #3c3b46;
+  padding: 0px;
+  font-size: 10px;
+	
 }
 
 @media print {
