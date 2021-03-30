@@ -127,12 +127,13 @@ h5{
 	}
 	.item {
   border: 1px solid #3c3b46;
+  border-top: 2px solid #3c3b46;
   padding: 0px;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
 	.inline-container{
 		grid-template-columns: repeat(3, 1fr);
 	}
@@ -176,8 +177,9 @@ h5{
 }
 .item {
   border: 1px solid #3c3b46;
+  border-top: 2px solid #3c3b46;
   padding: 0px;
-  font-size: 10px;
+  font-size: 20px;
 	
 }
 
