@@ -129,7 +129,7 @@ h5{
   border: 1px solid #3c3b46;
   border-top: 2px solid #3c3b46;
   padding: 0px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 
@@ -160,7 +160,7 @@ h5{
 	}
 
 	.bold {
-	    font-size: 15px;
+	    font-size: 20px;
 	    font-family: 'ibm plex mono bold';
 		height:  50px;
 	}
@@ -179,7 +179,7 @@ h5{
   border: 1px solid #3c3b46;
   border-top: 2px solid #3c3b46;
   padding: 0px;
-  font-size: 20px;
+  font-size: 12px;
 	
 }
 
