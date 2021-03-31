@@ -133,44 +133,45 @@ h5{
 }
 
 
-@media screen and (max-width: 660px) {
+
+@media screen and (max-width: 400px) {
 	.inline-container{
 		grid-template-columns: repeat(3, 1fr);
 	}
 	h1{
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 	h2{
-		font-size: 1rem;
+		font-size: .5rem;
 	}
 	h3{
-		font-size: 2rem;
+		font-size: 1rem;
 	}
 	h4{
-		font-size: 2rem;
+		font-size: 1rem;
 	}
 	h5{
-		font-size: 2rem;
+		font-size: 1rem;
 	}
 	.item{
-		font font-size: 15px;
+		font font-size: 7px;
 		font-family: ibm-plex-mono, sans-serif;
         font-style: normal;
-        height: 180px;
+        height: 90px;
 	}
 
 	.bold {
-	    font-size: 20px;
+	    font-size: 10px;
 	    font-family: 'ibm plex mono bold';
 		height:  50px;
 	}
 	.img {
-		height: 100px;
+		height: 50px;
 	}
 	body{
 		font-family:'ibm-plex-mono', sans-serif;
 	font-weight: 400;
-	font-size: 9px;
+	font-size: 5px;
 	text-align: center;
 	font-style: normal;
 
@@ -179,13 +180,13 @@ h5{
   border: 1px solid #3c3b46;
   border-top: 2px solid #3c3b46;
   padding: 0px;
-  font-size: 12px;
+  font-size: 6px;
 	
 }
 
 @media print {
 
-}
+
 .color{
 	width: 100px;
 	height: 100px;
