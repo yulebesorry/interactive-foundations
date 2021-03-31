@@ -3,7 +3,7 @@ body {
 	background-color: lightgrey;
 }
 .element {
-  caret-color: red;
+  caret-color: green;
 }
 img {
   display: block;
