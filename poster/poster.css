@@ -1,26 +1,33 @@
-body {
-	background-color: #03a9f4;
-	max-width: 850px;
-	max-height: 1200px;
+body{
+    background-color: white;
+    max-width: 850;
+    max-height: 1200;
 }
-.contrast{
-	width: 850px;
-	margin: auto;
-}
-
 h1, h2, h3 {
-  border: 1px black;
-  padding: 10px;
+  border: 100px black;
+  padding: 110px;
   width: 850px;
   height: 1200px;
+  position:fixed;
 
  }
  .B1:hover, .B2:hover, .B3:hover {
   background-color: red;
 }
+
 @media screen and (max-width: 850px) {
-	.inline-container{
+	.frame{
+        width: 100%;
+        height: 850;
 	}
+
+.frame{
+    max-width: 850px;
+    height: 1200px;
+    overflow: hidden;
+    margin: 0em auto;
+    background: #03a9f4;
+}	
 .B1 {
     width: 360px;
     height: 360px;
@@ -153,7 +160,6 @@ h4{
 }
 
 @media screen and (max-width: 400px) {
-  .inline-container{
   }
 
 h1 {
