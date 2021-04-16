@@ -1,4 +1,4 @@
-console.log('hello');
+console.log('howdy');
 
 $(document).ready(function(){
 
