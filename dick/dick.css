@@ -9,7 +9,18 @@ body{
 	/*	define a CSS variable */
 	--accent-color: rgb(0,0,255);
 } 
+}
+.inline-container {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+}
 
+.buttonlink{
+  background: none;
+  display: block;
+  margin: 20px;
+}
 .container{
  	width: 500px;
 	margin: auto;
