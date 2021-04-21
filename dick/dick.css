@@ -8,7 +8,7 @@ body{
     font-family:'ibm-plex-mono', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    text-align: center;
+    /*text-align: center;*/
     font-style: normal;
 }
 img {
@@ -63,7 +63,7 @@ h4:hover {
   font-size: 100px;
   color: yellow;
 }
-h7:hover {
+.roo:hover {
   font-size: 140px;
   color: yellow;
 }
@@ -116,7 +116,7 @@ h6{
     font-size: 18px;
     color: goldenrod;
   }
-h7{
+.roo{
     font-family: manicotti, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -130,6 +130,8 @@ p{
     font-weight: 400;
     font-style: normal;
     color: white;
+    width: 500px;
+    margin-left: 0px;
 }
 
 
@@ -160,7 +162,9 @@ body.darkmode h1{
 body.darkmode h2{
   color: pink;
 }
-
+body.darkmode p{
+  color: gray;
+}
 body.darkmode {
   background: #fdfbfb;
   color: #607d8b;
