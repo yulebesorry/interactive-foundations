@@ -29,15 +29,13 @@ img {
  .btn{
     border: none;
     background-color: inherit;
-    padding: 7px 14px;
-    font-size: 25px;
+    padding: 14px 28px;
+    font-size: 30px;
     cursor: pointer;
     display: inline-block;
     font-family: antarctican-mono, sans-serif;
     color: white;
-
     font-weight: 700;
-
     font-style: normal;
 }
 .inline-container {
@@ -49,7 +47,7 @@ img {
 .buttonlink{
     background: none;
     display: block;
-    margin: 20px;
+    margin: 200px;
 
 }
 .container{
@@ -60,6 +58,14 @@ img {
 .item{
 	  border-top: 2px solid var(--accent-color);
 	  padding: 2rem 0;
+}
+h4:hover {
+  font-size: 100px;
+  color: yellow;
+}
+h7:hover {
+  font-size: 140px;
+  color: yellow;
 }
 
 h1{
@@ -91,7 +97,7 @@ h4{
 	  font-family: manicotti, sans-serif;
     font-weight: 400;
     font-style: normal;
-	  font-size: 150px;
+	  font-size: 60px;
 	  text-align: center;
 	  margin: 1rem auto;
 	  color: #00ff7e;
@@ -110,6 +116,15 @@ h6{
     font-size: 18px;
     color: goldenrod;
   }
+h7{
+    font-family: manicotti, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    margin: 1rem auto;
+    color: #00ff7e;
+}
 p{
 	  font-family: antarctican-mono, sans-serif;
     font-weight: 400;
