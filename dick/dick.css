@@ -1,15 +1,15 @@
 *{
-	margin: 0;
-	padding: 0;
+	  margin: 0;
+	  padding: 0;
 }
 
 body{
-  background-color: #524d4ddb;
-  font-family:'ibm-plex-mono', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  text-align: center;
-  font-style: normal;
+    background-color: #524d4ddb;
+    font-family:'ibm-plex-mono', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
 }
 img {
     
@@ -24,21 +24,21 @@ img {
 } 
 
 .btn:hover {
-  background: #00ff7e;
+    background: #00ff7e;
 }
  .btn{
-  border: none;
-  background-color: inherit;
-  padding: 7px 14px;
-  font-size: 25px;
-  cursor: pointer;
-  display: inline-block;
-  font-family: antarctican-mono, sans-serif;
-  color: white;
+    border: none;
+    background-color: inherit;
+    padding: 7px 14px;
+    font-size: 25px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: antarctican-mono, sans-serif;
+    color: white;
 
-font-weight: 700;
+    font-weight: 700;
 
-font-style: normal;
+    font-style: normal;
 }
 .inline-container {
     display: grid; 
@@ -47,57 +47,69 @@ font-style: normal;
 }
 
 .buttonlink{
-  background: none;
-  display: block;
-  margin: 20px;
+    background: none;
+    display: block;
+    margin: 20px;
 
 }
 .container{
- 	width: 500px;
-	margin: auto;
+ 	  width: 500px;
+	  margin: auto;
 }
 
 .item{
-	border-top: 2px solid var(--accent-color);
-	padding: 2rem 0;
+	  border-top: 2px solid var(--accent-color);
+	  padding: 2rem 0;
 }
 
 h1{
     font-family: manicotti, sans-serif;
     font-weight: 400;
     font-style: normal;
-	font-size: 80px;
-	text-align: center;
-	color: white;
-	margin: 1rem auto;
+	  font-size: 80px;
+	  text-align: center;
+	  color: white;
+	  margin: 1rem auto;
 }
 h2{
     font-family: manicotti, sans-serif;
     font-weight: 400;
     font-style: normal;
-	font-size: 40px;
-	text-align: center;
-	color: white;
-	margin: 1rem auto;
+	  font-size: 40px;
+	  text-align: center;
+	  color: white;
+	  margin: 1rem auto;
 }
 h3{
-	font-family: antarctican-mono, sans-serif;
+	  font-family: antarctican-mono, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: white;
-	margin: .5rem 0 .5rem 30px;
+	  margin: .5rem 0 .5rem 30px;
 }
 h4{
-	font-family: manicotti, sans-serif;
+	  font-family: manicotti, sans-serif;
     font-weight: 400;
     font-style: normal;
-	font-size: 150px;
-	text-align: center;
-	margin: 1rem auto;
-	color: #00ff7e;
+	  font-size: 150px;
+	  text-align: center;
+	  margin: 1rem auto;
+	  color: #00ff7e;
 }
+h5{
+  font-family: antarctican-mono, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: tomato;
+  }
+h6{
+  font-family: antarctican-mono, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: goldenrod;
+  }
 p{
-	font-family: antarctican-mono, sans-serif;
+	  font-family: antarctican-mono, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: white;
