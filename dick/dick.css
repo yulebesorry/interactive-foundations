@@ -29,8 +29,8 @@ img {
  .btn{
     border: none;
     background-color: inherit;
-    padding: 14px 28px;
-    font-size: 30px;
+    padding: 14px 24px;
+    font-size: 20px;
     cursor: pointer;
     display: inline-block;
     font-family: antarctican-mono, sans-serif;
@@ -81,7 +81,7 @@ h2{
     font-family: manicotti, sans-serif;
     font-weight: 400;
     font-style: normal;
-	  font-size: 40px;
+	  font-size: 60px;
 	  text-align: center;
 	  color: white;
 	  margin: 1rem auto;
@@ -115,6 +115,13 @@ h6{
     font-style: normal;
     font-size: 18px;
     color: goldenrod;
+  }
+h7{
+  font-family: antarctican-mono, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+    color: white;
   }
 .roo{
     font-family: manicotti, sans-serif;
@@ -165,6 +172,9 @@ body.darkmode h2{
 body.darkmode p{
   color: gray;
 }
+body.darkmode h7{
+  color: pink;
+}
 body.darkmode {
   background: #fdfbfb;
   color: #607d8b;
@@ -173,14 +183,14 @@ body.darkmode {
   /*--accent-color: rgb(0,255,0);*/
 }
 
-body.darkmode button{
+body.darkmode button2{
   color: goldenrod;
 }
 h1.darkmode{
   color: pink;
 }
 
-button{
+button2{
 	font-size: 1rem;
 	font-weight: bold;
 	border: 2px solid var(--accent-color);
@@ -191,7 +201,7 @@ button{
 	color: white;
 }
 
-button:hover{
+button2:hover{
 	background: rgb(200 200);
 	cursor: pointer;
 }
@@ -200,7 +210,7 @@ html, body {
 }
 
 .wrap {
-  height: 100%;
+  height: 00%;
   display: flex;
   align-items: center;
   justify-content: center;
