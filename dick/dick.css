@@ -13,32 +13,30 @@ body{
 }
 img {
     
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-    margin: left;
+    
+    
+    
+  max-width: 100%;
+  height: auto;
+
 }
 
-{	/*	define a CSS variable */
-	--accent-color: rgb(0,0,255);
-} 
-
-.btn:hover {
+ .btn:hover {
     background: #00ff7e;
 }
  .btn{
     border: none;
     background-color: inherit;
     padding: 14px 24px;
-    font-size: 20px;
+    font-size: 200px;
     cursor: pointer;
     display: inline-block;
     font-family: antarctican-mono, sans-serif;
-    color: white;
+    color: red;
     font-weight: 700;
     font-style: normal;
 }
+
 .inline-container {
     display: grid; 
     grid-template-columns: repeat(2, 1fr);
@@ -53,19 +51,20 @@ img {
 }
 .container{
  	  width: 1500px;
+    font-family: antarctican-mono, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
 	  margin: auto;
 }
 
-.item{
-	  border-top: 2px solid var(--accent-color);
-	  padding: 2rem 0;
-}
+
 h4:hover {
   font-size: 450px;
   color: yellow;
 }
-.roo:hover {
-  font-size: 140px;
+h7:hover {
+  font-size: 450px;
   color: yellow;
 }
 
@@ -73,7 +72,7 @@ h1{
     font-family: manicotti, sans-serif;
     font-weight: 400;
     font-style: normal;
-	  font-size: 120px;
+	  font-size: 180px;
 	  text-align: center;
 	  color: white;
 	  margin: 1rem auto;
@@ -82,17 +81,20 @@ h2{
     font-family: antarctican-mono, sans-serif;
     font-weight: 400;
     font-style: normal;
-	  font-size: 40px;
+	  font-size: 60px;
 	  text-align: center;
 	  color: white;
 	  margin: 1rem auto;
 }
 h3{
-	  font-family: antarctican-mono, sans-serif;
+    font-family: antarctican-mono, sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 30px;
+    text-align: center;
     color: white;
-	  margin:  0 .5rem 30px;
+    margin: 1rem auto;
+	  
 }
 h4{
 	  font-family: manicotti, sans-serif;
@@ -107,51 +109,58 @@ h5{
   font-family: antarctican-mono, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 18px;
+    font-size: 20px;
+    width: 500px;
+    margin-left: 15px;
     color: tomato;
   }
 h6{
   font-family: antarctican-mono, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 18px;
+    font-size: 20px;
+    width: 500px;
+    margin-left: 15px;
     color: aquamarine;
   }
+h7{
+    font-family: manicotti, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-align: left;
+    margin: 1rem auto;
+    color: #00ff7e;
+}
 
 .roo{
     font-family: manicotti, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 60px;
-    text-align: center;
+    font-size: 200px;
+    text-align: left;
     margin: 1rem auto;
-    color: #00ff7e;
+    color: orange;
+}
+.roo:hover{
+  font-family: manicotti, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 400px;
+    text-align: left;
+    margin: 1rem auto;
+    color: red;
+
 }
 p{
 	  font-family: antarctican-mono, sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 18px;
     color: white;
     width: 500px;
     margin-left: 0px;
 }
-
-
-.item { 
-	cursor: pointer;
-}
-
-
-
-.details{
-	line-height: 1.3;
-	color: var(--accent-color);
-	display: none;
-/*	height: 0;
-	overflow: hidden;
-	transition: height 400ms ease-in-out;*/
-}
-
 
 
 body.darkmode h1{
@@ -177,19 +186,22 @@ body.darkmode {
 body.darkmode button2{
   color: goldenrod;
 }
+body.darkmode button3{
+  color: aquamarine;
+}
 h1.darkmode{
   color: pink;
 }
 
 button2{
-	font-size: 1rem;
+	font-size: .75rem;
 	font-weight: bold;
 	border: 2px solid var(--accent-color);
 	background: transparent;
 	padding: 0.5rem;
 	margin-bottom: 1rem;
 	border-radius: 5px;
-	color: white;
+	color: #00ff7e;
 }
 
 button2:hover{
@@ -197,14 +209,14 @@ button2:hover{
 	cursor: pointer;
 }
 button3{
-  font-size: 1rem;
+  font-size: .75rem;
   font-weight: bold;
   border: 2px solid var(--accent-color);
   background: transparent;
   padding: 0.5rem;
   margin-bottom: 1rem;
   border-radius: 5px;
-  color: white;
+  color: aquamarine;
 }
 
 button3:hover{
@@ -213,6 +225,7 @@ button3:hover{
 }
 html, body {
   height: 100%;
+  width: 100%;
 }
 
 .wrap {
@@ -299,8 +312,85 @@ button:hover::after, button:focus::after {
     opacity: 0;
   }
 }
+@media screen and (max-width: 600px) {
+  .inline-container{
+}
+ img{
+    width: 20px;
+    height: 20px;
 
+  }
+ h1{
+    font-size: 140px;
+    text-align: center;
+    margin: 1rem auto;
+  }
+  h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 1rem auto;
+  }
+  h3{
+    font-size: 20px;
+  }
+  h4{
+    font-size: 30px;
+  }
+  h5{
+    font-size: 12px;
+  }
+  h6{
+    font-size: 12px;
+  }
+  p{
+    font-size: 11px;
+  }
+  h7{
+    font-size: 30px;
+  }
+  h4:hover {
+  font-size: 150px;
+  }
+  .roo {
+  font-size: 60px;
+  }
+  .roo:hover {
+  font-size: 120px;
+  }
 
-/*	DARK MODE STYLES GO HERE */
+  h7:hover {
+  font-size: 150px;
+  }
+  .wrap{
+  height: 00%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  }
+  .button {
+  min-width: 150px;
+  min-height: 30px;
+  font-size: 11px;
+}
+  .button::after {
+  content: 'rooG';
+  color: white;
+  width: 15px; height:150px;
+  border-radius: 100%;
+  border: 6px solid aquamarine;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+
+}
 
 
