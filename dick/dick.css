@@ -11,14 +11,10 @@ body{
     /*text-align: center;*/
     font-style: normal;
 }
+
 img {
-    
-    
-    
-    
   max-width: 100%;
   height: auto;
-
 }
 
  .btn:hover {
@@ -63,9 +59,15 @@ h4:hover {
   font-size: 450px;
   color: yellow;
 }
-h7:hover {
+.softly:hover {
+  font-size: 150px;
+  color: lightyellow;
+}
+
+.roog-green:hover {
   font-size: 450px;
   color: yellow;
+
 }
 
 h1{
@@ -104,6 +106,7 @@ h4{
 	  text-align: left;
 	  margin: 1rem auto;
 	  color: #00ff7e;
+    transition: color 300ms ease-in-out, font-size 300ms ease-in-out;
 }
 h5{
   font-family: antarctican-mono, sans-serif;
@@ -111,7 +114,7 @@ h5{
     font-style: normal;
     font-size: 20px;
     width: 500px;
-    margin-left: 15px;
+    margin-left: 25px;
     color: tomato;
   }
 h6{
@@ -120,10 +123,20 @@ h6{
     font-style: normal;
     font-size: 20px;
     width: 500px;
-    margin-left: 15px;
+    margin-left: 25px;
     color: aquamarine;
   }
-h7{
+.softly{
+    font-family: manicotti, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: left;
+    margin: 1rem auto;
+    color: #00ff7e;
+    transition: color 1200ms ease-in-out, font-size 1200ms ease-in-out;
+}
+.roog-green{
     font-family: manicotti, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -131,8 +144,8 @@ h7{
     text-align: left;
     margin: 1rem auto;
     color: #00ff7e;
+    transition: color 100ms ease-in-out, font-size 100ms ease-in-out;
 }
-
 .roo{
     font-family: manicotti, sans-serif;
     font-weight: 400;
@@ -141,6 +154,7 @@ h7{
     text-align: left;
     margin: 1rem auto;
     color: orange;
+    transition: color 600ms ease-in-out, font-size 600ms ease-in-out;
 }
 .roo:hover{
   font-family: manicotti, sans-serif;
@@ -159,7 +173,7 @@ p{
     font-size: 18px;
     color: white;
     width: 500px;
-    margin-left: 0px;
+    margin-left: 15px;
 }
 
 
@@ -178,22 +192,27 @@ body.darkmode h7{
 body.darkmode {
   background: #fdfbfb;
   color: #607d8b;
-
-  /*  redefine a CSS variable */
-  /*--accent-color: rgb(0,255,0);*/
 }
 
-body.darkmode button2{
+/*body.darkmode button2{
   color: goldenrod;
 }
-body.darkmode button3{
-  color: aquamarine;
+*/
+#barkmode{
+  color: goldenrod;
 }
+
+#roogmode{
+   color: aquamarine;
+}
+/*body.darkmode button3{
+  color: aquamarine;
+}*/
 h1.darkmode{
   color: pink;
 }
 
-button2{
+.barkmode{
 	font-size: .75rem;
 	font-weight: bold;
 	border: 2px solid var(--accent-color);
@@ -204,11 +223,11 @@ button2{
 	color: #00ff7e;
 }
 
-button2:hover{
+.barkmode:hover{
 	background: rgb(200 200);
 	cursor: pointer;
 }
-button3{
+.roogmode{
   font-size: .75rem;
   font-weight: bold;
   border: 2px solid var(--accent-color);
@@ -219,10 +238,11 @@ button3{
   color: aquamarine;
 }
 
-button3:hover{
+.roogmode:hover{
   background: rgb(200 200);
   cursor: pointer;
 }
+
 html, body {
   height: 100%;
   width: 100%;
@@ -312,9 +332,10 @@ button:hover::after, button:focus::after {
     opacity: 0;
   }
 }
+
 @media screen and (max-width: 600px) {
   .inline-container{
-}
+  }
  img{
     width: 20px;
     height: 20px;
@@ -331,23 +352,21 @@ button:hover::after, button:focus::after {
     margin: 1rem auto;
   }
   h3{
-    font-size: 20px;
+    font-size: 18px;
   }
   h4{
     font-size: 30px;
   }
   h5{
-    font-size: 12px;
+    font-size: 20px;
   }
   h6{
-    font-size: 12px;
+    font-size: 20px;
   }
   p{
-    font-size: 11px;
+    font-size: 12px;
   }
-  h7{
-    font-size: 30px;
-  }
+ 
   h4:hover {
   font-size: 150px;
   }
@@ -358,7 +377,7 @@ button:hover::after, button:focus::after {
   font-size: 120px;
   }
 
-  h7:hover {
+  .roog-green:hover {
   font-size: 150px;
   }
   .wrap{
@@ -371,7 +390,7 @@ button:hover::after, button:focus::after {
   min-width: 150px;
   min-height: 30px;
   font-size: 11px;
-}
+  }
   .button::after {
   content: 'rooG';
   color: white;
@@ -384,13 +403,22 @@ button:hover::after, button:focus::after {
   left: 50%;
   transform: translate(-50%, -50%);
   animation: ring 1.5s infinite;
-}
-
-img {
+  }
+  .container{
+    width: 1500px;
+    font-family: antarctican-mono, sans-serif;
+    font-weight: 00;
+    font-style: normal;
+    font-size: 10px;
+    margin: auto;
+  }
+  img {
   width: 500px;
   max-width: 100%;
   height: auto;
+  }
 
-}
+
+
 
 
