@@ -333,7 +333,7 @@ button:hover::after, button:focus::after {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .inline-container{
   }
  img{
