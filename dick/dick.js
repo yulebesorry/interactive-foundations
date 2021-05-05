@@ -12,7 +12,7 @@ $(document).ready(function(){
 	});
 
 	$('#roogmode').click(function(){
-		$('body').Class('darkmode');
+		$('body').removeClass('darkmode');
 	});
 
 });
